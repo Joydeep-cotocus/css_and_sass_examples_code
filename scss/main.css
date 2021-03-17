@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2C3A47;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_header h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #BDC581;
+  letter-spacing: 1rem;
+}
+
+.main_header h1:hover {
+  color: coral;
+}
+
+.main_header h2 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #BDC581;
+  letter-spacing: 1rem;
+}
+
+.main_header h2:hover {
+  color: #EAB543;
+}
+/*# sourceMappingURL=main.css.map */

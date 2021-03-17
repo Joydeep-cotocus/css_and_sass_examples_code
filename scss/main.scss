@@ -1,0 +1,30 @@
+@import 'mixin';
+@import 'variable';
+
+*{
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+.main_header{
+    @include name();
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+
+    h1{
+        @include name2 (1rem);
+        &:hover{
+            color:coral;
+        }
+    }
+    
+    h2{
+        @include name2 (1rem);
+        &:hover{
+            color:#EAB543;
+        }
+    }
+}
